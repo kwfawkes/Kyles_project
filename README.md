@@ -7,7 +7,7 @@ Kyle Fawkes
 Root directory
 
 The motivation for this study is grounded in my Keystone project on plankton blooms in the Discovery Passage
- area. However a key piece of plankton trends is their interaction with the abiotic environment. 
+ area. However a key piece of understanding plankton trends is understanding their interaction with the abiotic environment. 
 Thus the primary goal of this study is to explore the relationship between the abiotic environment 
  of the Northern Strait of Georgia and zooplankton abundance. Specifically I want to focus on the relationships
  between sea surface temperature, wave height, and zooplankton. 
@@ -18,31 +18,31 @@ To accomplish this goal I develop two different analytical paths:
 	First I explore the trends of sea surface temperature and wave height individually against the timeline
 	 of my keystone (from 2009 to 2012)
 
-	a.	Sea Surface temperature-not done
+	a.	Sea Surface temperature
 	
-	b.  Significant Wave Height-not done
+	b.  Significant Wave Height
 	
-	c. Zooplankton-not done
+	c. Zooplankton
 	
-	d. All three together (Done for 2009)
 	
 	
 
 2.	Statistical analysis:
-	Then I aim to compare sea surface temperature, wave height and zooplankton abundance, while additionally 
-	performing a statistical analysis for the time intervals of:
+	Then I aim to compare sea surface temperature, wave height and zooplankton abundance, and run multivariate linear 
+	regression for each year of data collection. Additionally, I want to explore the background of the 
+	interaction between sea surface temperature and significant wave height using linear regression
 
-	a.	Months
+	a.	Background sea surface temperature and significant wave height timeline: 
+		Months
 
-	b.	Years
+	b.	Multivariate linear regression timeline: 
+		Weeks during spring
 
-	For each of these time intervals:
+	For both of these tasks:
 
 		i.	New dataset is created composed of mean data for time interval
 
-		ii.	Linear model analyzing relationship between 2 out of the following three variables 1. zooplankton abundance,
-			2. sea surface temperature, 3. significant wave height (averaged over specified time period above). 
-			 
+		ii.	Linear model produced analyzing relationship 
  
-		iii.	Visual and statistical analysis of linear model is given using linear regression
+		iii. Visual and statistical analysis of linear model is given using linear regression
 
