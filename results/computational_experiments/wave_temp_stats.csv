@@ -1,0 +1,4 @@
+stat,test,timeframe,timeseries,value
+p-value,linear regression,2009-2012,,6.772799892123023e-17
+p-value,linear regression,2009-2012,,4.73008967646649e-08
+r-squared,linear regression,,2009-2012,0.49597281549328665

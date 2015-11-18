@@ -1,0 +1,5 @@
+year,test,value,year,variable
+2009,linear regression,0.31829974550974766,2009,const
+2009,linear regression,0.03045532394569027,2009,sea_surface_temperature
+2009,linear regression,0.5412283589762171,2009,sig_wave_height
+2009,linear regression,0.3769503452066342,2009,sig_wave_height & sea_surface_temperature
