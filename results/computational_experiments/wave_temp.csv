@@ -1,0 +1,4 @@
+stat,test,timeframe,variable,value
+p-value,linear regression,2009-2012,const,6.772799892123023e-17
+p-value,linear regression,2009-2012,sea_surface_temperature,4.73008967646649e-08
+r-squared,linear regression,2009-2012,0,0.49597281549328665

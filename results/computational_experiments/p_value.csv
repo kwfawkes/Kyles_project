@@ -1,0 +1,17 @@
+year,test,value,variable
+2012,linear regression,0.01522764869501968,const
+2012,linear regression,0.09589384748006033,sea_surface_temperature
+2012,linear regression,0.18011510437117484,sea_surface_temperature & sig_wave_height
+2012,linear regression,0.08378077785933438,sig_wave_height
+2011,linear regression,0.07747641920173112,const
+2011,linear regression,0.4931488386222952,sea_surface_temperature
+2011,linear regression,0.9437929205321631,sea_surface_temperature & sig_wave_height
+2011,linear regression,0.618090727657558,sig_wave_height
+2010,linear regression,0.6287475122448449,const
+2010,linear regression,0.8733371093554924,sea_surface_temperature
+2010,linear regression,0.9161576253386672,sea_surface_temperature & sig_wave_height
+2010,linear regression,0.800040012963555,sig_wave_height
+2009,linear regression,0.3182997455097477,const
+2009,linear regression,0.030455323945690286,sea_surface_temperature
+2009,linear regression,0.37695034520663395,sea_surface_temperature & sig_wave_height
+2009,linear regression,0.5412283589762171,sig_wave_height

@@ -108,6 +108,7 @@ def spring_wk(year, column_1, column_2, column_3):
 	
 	# Combines the three columns across the two datasets into a single dataframe
 	combination_data = pd.DataFrame({column_1.name : column_1_weekly_year_new, column_2.name : column_2_weekly_year_new, column_3.name : column_3_year_weekly})
+	combination_data = combination_data.dropna()
 	
 	return combination_data
 	

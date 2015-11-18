@@ -107,7 +107,7 @@ def timeseries(dataset, variable_1, variable_2, variable_3, savename):
     assert type(savename) == str, 'the output file name (savename) must be a string'
     assert len(dataset) > 1, 'dataset should have a length of more than 1 in order to plot'
     
-    fig = plt.figure(figsize=(11, 8)) 
+    fig = plt.figure(figsize=(12, 5)) 
     
     # layering the three axes, which contain the three varaibles, on top of one another to create a single subplot
     # layering completed with twinx() method
@@ -122,7 +122,7 @@ def timeseries(dataset, variable_1, variable_2, variable_3, savename):
     
     # moving the spine that the zooplankton was plotted onto towards the right so it isnt on top of the second spine(ax2)
     variable_3_spine = ax3.spines['right']
-    variable_3_spine.set_position(('axes', 1.2))
+    variable_3_spine.set_position(('axes', 1.1))
 
     # Adjusting the color of the axes ticks to match line color
     ax1.yaxis.set_tick_params(labelcolor='k')

@@ -113,8 +113,8 @@ def linear_regression(x_variable, y_variable, savename):
     
     
     # Creating axis labels and title
-    plt.ylabel(x_variable.name)
-    plt.xlabel(y_variable.name)
+    plt.ylabel(y_variable.name)
+    plt.xlabel(x_variable.name)
     
     plt.savefig('../results/computational_experiments/'+savename+'.pdf')
     

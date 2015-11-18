@@ -98,15 +98,15 @@ def extract_pvalues(linear_model):
     
     # Changing the index column to years
     # Creating a new column for index inputs (doubling the index column)
-    
+    lmp_1.insert(3, 'variable',lmp_1.index)
     # changing the index to year (doubling the year column)
     lmp_1.index = lmp_1.stat
     # Deleting the extra year column
     del lmp_1['stat']
     
     # returning the p-value table
-    return lmp_1   
-
+    return lmp_1
+    
 def extract_rvalues(linear_model):
     '''Function creates a table of r-squared values for a specified 
     linear model. Only required input is the linear 
@@ -117,6 +117,9 @@ def extract_rvalues(linear_model):
     # Dataframe assigned to a variable
     lmp_2 = pd.DataFrame({ 'value' : [linear_model.rsquared], 'test': ['linear regression'], 'timeframe' : '2009-2012', 'stat': 'r-squared'})
     
+    # Changing the index column to years
+    # Creating a new column for index inputs (doubling the index column)
+    lmp_2.insert(3, 'variable',lmp_2.index)
     # changing the index to stat (doubling the year column)
     lmp_2.index = lmp_2.stat
     # Deleting the extra year column
